@@ -6,7 +6,7 @@ public class main {
 
     public static void main(String[] args) {
         Bandeau bandeau = new Bandeau();
-        bandeau.setMessage("mon coeur");
+        bandeau.setMessage("texte de test");
         Scenario scenario = new Scenario(bandeau);
         scenario.resetBandeau();
         scenario.ajouterAnim(new textQuiDefile(),3);
